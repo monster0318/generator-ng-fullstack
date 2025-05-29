@@ -1,6 +1,7 @@
 'use strict';
 
 describe('<%= name %>', () => {
+
   let $componentController;
   beforeEach(module('<%= appName %>'));
   beforeEach(inject(function(_$componentController_) {
